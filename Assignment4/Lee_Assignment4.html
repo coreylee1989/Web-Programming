@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Corey Lee Web page</title>
+	<style type="text/css">
+		body					{ background-image: url(							  "baseballbg.jpg"); 
+								  z-index: 1;
+								  width: 100%; }
+
+		body background-image	{ opacity: 0.5; }
+
+		img 					{ display: none; }
+
+		img.Kyro				{ display: block;
+					  			  margin: auto;
+					  			  align-content: center;
+					  			  z-index: 1;}
+
+		table, th, td			{ border: 1px solid black;
+								  text-align: center; }
+
+		table					{ width: 100%;
+								  align-self: center; }
+
+		li.one:hover + img 		{ display: block; }
+
+		div.box					{ background-color: grey;
+								  width: 80%%;
+								  border: 15px solid black;
+								  padding: 5px;
+								  margin: 5px;
+								  text-align: center; }
+
+		div.box img 			{ display: block; }
+
+		footer					{ color: blue; }
+
+	</style>
+	<!--Background image sourece: "https://pixabay.com/en/baseball-home-plate-grass-game-1572551/"-->
+</head>
+<body>
+	<img class="Kyro" src="Kyro.jpg" alt="My dog Kyro" width="25%">
+	<hr>
+	<table>
+		<tr>
+			<th>Course Number</th>
+			<th>Course Title</th>
+			<th>Meeting Days</th>
+			<th>Meeting Times</th>
+		</tr>
+		<tr>
+			<td>CSIS 4010</td>
+			<td>Computer Security</td>
+			<td>Monday</td>
+			<td>2:30 - 5:00</td>
+		</tr>
+		<tr>
+			<td>CSIS 3400</td>
+			<td>Data Structures</td>
+			<td>Tuesday and Thursday</td>
+			<td>2:00 - 3:40</td>
+		</tr>
+		<tr>
+			<td>CSIS 3200</td>
+			<td>Organization of Programming Languages</td>
+			<td>Tuesday and Thursday</td>
+			<td>10:45 - 12:00</td>
+		</tr>
+		<tr>
+			<td>CSIS 4840</td>
+			<td>UNIX Operating System Environment</td>
+			<td>Online</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<td>CSIS 3020</td>
+			<td>Web Programming and Design</td>
+			<td>Tuesday and Thursday</td>
+			<td>4:00 - 5:15</td>
+		</tr>
+	</table>
+
+	<h2>My Favorite Websites:</h2>
+	<ul>
+		<li><a href="https://www.google.com" target="_blank">Google</a></a></li>
+		<li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
+		<li><a href="https://www.hulu.com" target="_blank">Hulu</a></li>
+		<li><a href="https://www.stumbleupon.com" target="_blank">StumbleUpon</a></li>
+		<li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+	</ul>
+
+	<h2>My Favorite Foods:</h2>
+	<ul>
+		<li class="one">Pizza</li>
+		<img src="pizza.jpg" alt="pizza" width="50%">
+		<!-- source: https://pixabay.com/p-806087/?no_redirect -->
+		<li class="one">Mac & Cheese</li>
+		<img src="macandcheese.jpg" alt="Mac & Cheese" width="50%">
+		<!-- source: https://www.flickr.com/photos/tavallai/5304806016 -->
+		<li class="one">Steak</li>
+		<img src="steak.jpg" alt="Steak!" width="50%">
+		<!-- source: https://commons.wikimedia.org/wiki/File:Cut_up_steak.jpg -->
+	</ul>
+
+	<div class="box">
+		My favorite hobby is riding motorcycles, which shouldn't come as a surprise since my first 2 assignments were based on motorcycles! I have a 2003 Ninja ZX6R and I find any excuse to ride, even if it's raining!
+		<img src="mybike.jpg" alt="My Ninja" width="100%">
+	</div>
+
+	<footer>
+		<p>Created By: Corey Lee</p>
+	</footer>
+
+</body>
+</html>

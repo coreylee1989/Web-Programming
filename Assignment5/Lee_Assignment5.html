@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Flash Card Game</title>
+	<style type="text/css">
+		body					{ background-image: 
+								  url(Images/usmcflag.png); 
+								  background-repeat: no-repeat;
+								  background-size: auto auto; }
+		h1						{ text-align: center; }
+		h3						{ text-align: center; }
+		table					{ width: 100%; }
+		.correct 				{ color: green; }
+		.wrong 					{ color: red; }
+		img 					{ display: block;
+								  margin: auto;
+								  align-items: center;
+								  width: 20%;
+								  max-height: 100px;
+								  max-height: 600px; }
+		input					{ display: block;
+								  margin: auto;
+								  align-items: center;
+								  width: 10cm; }
+	</style>
+	<script src="JS/ImageArray.js"></script>
+	<script src="JS/Buttons.js"></script>
+	<script type="text/javascript">
+		document.writeln( "<h1 style = 'color: magenta'>");
+		document.writeln( "Welcome to my game!</h1>");
+
+		document.writeln( "<h3 style = 'color: blue'>");
+		document.writeln( "Try to guess the Marine Corps Rank displayed!");
+	</script>
+</head>
+<body>
+	<hr>
+	<br>
+	<table>
+		<th id="correct" class="correct">Correct Answers: 0</th>
+		<th id="wrong" class="wrong">Wrong Answers: 0</th>
+	</table>
+	<br>
+	<img id = "iconImg" src = "Images/EGA.png" alt = "Eagle Globe and Anchor">
+	<br>
+	<br>
+	<form action="#">
+		<input id="answer1" type="button" value="CLICK ME TO PLAY">
+		<input id="answer2" type="button" value="CLICK ME TO PLAY">
+		<input id="answer3" type="button" value="CLICK ME TO PLAY">
+		<input id="answer4" type="button" value="CLICK ME TO PLAY">
+	</form>
+</body>
+</html>
